@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2026-08-15
+  Changes:
+  Bugfixes:
+    - Fixed Space Locomotive maximum speed not being affected by quality eventhough it should be, due to wrong blueprint being updated.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 2026-06-24
   Bugfixes:

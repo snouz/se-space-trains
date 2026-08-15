@@ -340,7 +340,7 @@ if mods["quality"] then
   -- Make the fluid and cargo wagon be affected by quality.
   data.raw["cargo-wagon"]["space-cargo-wagon"].quality_affects_inventory_size = true
   data.raw["fluid-wagon"]["space-fluid-wagon"].quality_affects_capacity = true
-  data.raw["locomotive"]["locomotive"].quality_affects_max_speed = true
+  data.raw["locomotive"]["space-locomotive"].quality_affects_max_speed = true
 
   -- Handle quality for the charging station here.
   data.raw["item"]["space-train-battery-charging-station"].quality_affects_energy_usage = true
